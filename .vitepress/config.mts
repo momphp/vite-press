@@ -1,28 +1,27 @@
-import { defineConfig } from 'vitepress'
+import {defineConfig} from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "MomPHP",
-  description: "The PHP packages that have your back",
-  themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
-    ],
+    title: "MomPHP",
+    description: "The PHP packages that have your back",
+    themeConfig: {
+        // https://vitepress.dev/reference/default-theme-config
+        nav: [
+            {text: 'Packages', link: '/data/what-is-mom-php-data'},
+        ],
 
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+        sidebar: [
+            {
+                text: 'Data',
+                items: [
+                    {text: 'What is MomPHP data', link: '/data/what-is-mom-php-data'},
+                    {text: 'Getting Started', link: '/data/getting-started'},
+                ]
+            }
+        ],
+
+        socialLinks: [
+            {icon: 'github', link: 'https://github.com/momphp'}
         ]
-      }
-    ],
-
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
-  }
+    }
 })

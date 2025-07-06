@@ -8,18 +8,12 @@ hero:
   tagline: My great project tagline
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Browse Packages
+      link: /data/getting-started
 
 features:
   - title: Data
-    details: Minimalist Data Transfer Objects (DTO) for PHP
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: A simple and flexible Data Transfer Object (DTO) package for PHP, allowing clean data encapsulation and validation.
+    link: /data/getting-started
 ---
 
