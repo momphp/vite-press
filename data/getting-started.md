@@ -1,14 +1,12 @@
 # Getting Started
 
-Install the package via Composer:
+### Step 1: Install the package via Composer:
 
 ```bash
 composer require mom/data
 ```
 
-## Getting Started
-
-### Step 1: Create a property class
+### Step 2: Create a property class
 
 Define a property class and extend `AbstractString`, `AbstractInteger`, `AbstractFloat`, `AbstractCollection`,
 `AbstractDate`, `AbstractDataValue`, `AbstractEnum` or `AbstractBoolean` based on the property type:
@@ -29,7 +27,7 @@ class Uuid extends AbstractString
 }
 ```
 
-### Step 2: Create a DTO class
+### Step 3: Create a DTO class
 
 Next, create DTO class and extend `AbstractData` class:
 
@@ -61,7 +59,7 @@ class User extends AbstractData
 }
 ```
 
-### Step 3: Use the DTO class
+### Step 4: Use the DTO class
 
 Once created, you can access the DTO properties as usual:
 
