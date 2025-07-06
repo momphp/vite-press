@@ -4,6 +4,9 @@ import {defineConfig} from 'vitepress'
 export default defineConfig({
     title: "MomPHP",
     description: "The PHP packages that have your back",
+    head: [
+        ['link', {rel: 'icon', href: '/favicon.jpeg'}]
+    ],
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         nav: [
